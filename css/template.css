@@ -1,0 +1,316 @@
+/* General styles */
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #ece8e5;
+	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat",sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+	background-color: transparent;
+}
+
+.clearfix::before, .clearfix::after, .dl-horizontal dd::before, .dl-horizontal dd::after, .container::before, .container::after, .container-fluid::before, .container-fluid::after, .row::before, .row::after, .form-horizontal .form-group::before, .form-horizontal .form-group::after, .btn-toolbar::before, .btn-toolbar::after, .btn-group-vertical > .btn-group::before, .btn-group-vertical > .btn-group::after, .nav::before, .nav::after, .navbar::before, .navbar::after, .navbar-header::before, .navbar-header::after, .navbar-collapse::before, .navbar-collapse::after, .pager::before, .pager::after, .panel-body::before, .panel-body::after, .modal-footer::before, .modal-footer::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after, .dl-horizontal dd::after, .container::after, .container-fluid::after, .row::after, .form-horizontal .form-group::after, .btn-toolbar::after, .btn-group-vertical > .btn-group::after, .nav::after, .navbar::after, .navbar-header::after, .navbar-collapse::after, .pager::after, .panel-body::after, .modal-footer::after {
+    clear: both;
+}
+
+img {
+    border: 0 none;
+	vertical-align: middle;
+}
+
+p, pre {
+    margin: 1em 0;
+}
+
+section {
+	padding: 1%;
+	height: auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+nav ul, nav ol {
+    list-style: outside none none;
+}
+
+nav {
+	height: 40px;
+	width: 100%;
+	background: #BC5C1A;
+	font-size: 11pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	position: relative;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 950px;
+	height: 40px;
+}
+
+nav li {
+	display: inline;
+	float: left;
+}
+
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0px #000;
+}
+
+nav li a {
+	border-right: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+nav li:last-child a {
+	border-right: 0;
+}
+
+nav a:hover, nav a:active{
+	background-color: #FF530D;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a#pull {
+	display: none;
+}
+
+/*Header*/
+#header {
+	padding: 0;
+}
+
+#logo {
+	background: url(../images/bg2.jpg);
+	background-size: 100% 100%;
+}
+
+#logo img { 
+	width: 22%;
+	padding: 2%;
+	height: auto;
+}
+
+/* Header menu */
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.current, .active {
+	background: #FF530D;	
+}
+
+/* Wrappers */
+.wrapper {
+	width: 70%;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+
+.wrapperbilleder {
+	width: 60%;
+	height: auto;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+}
+
+.wrapperbilleder img{
+	opacity: 0.7;
+	width: 341px;
+}
+
+.wrapperbilleder img:hover{
+	opacity: 1;
+}
+
+/* Content */
+.video-container {
+	height: 281px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    width: 500px;
+	float: left;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-4 {
+    width: 33.3333%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-9 {
+    width: 75%;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.thumbnail, .img-thumbnail {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+
+.thumbnail > img, .thumbnail a > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail .caption {
+    color: #333;
+    padding: 9px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+#Aabningstider {
+	border: solid 2px #BC5C1A;
+	float: right;
+	margin-top: 20px;
+}
+
+#Aabningstider ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding-right: 20px;
+}
+
+#Aabningstider h1 {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+/* Footer */
+.footer { 
+	background: #BC5C1A;
+	color: #fff;
+	margin: 0; 
+	height: auto;
+	overflow: hidden;
+}
+
+.footerkolonne {
+	margin-top: 40px;
+}
+
+.footer p  {
+	margin-bottom: -10px;
+}
+
+.footer a  {
+	color: #000
+}
