@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="template">
+	<name>ravsliberen</name>
+	<creationDate>2015-08-07</creationDate>
+	<author>Ravsliberen Aps</author>
+	<authorEmail>ravsliberen@ravsliberen.dk</authorEmail>
+	<authorUrl>http://www.ravsliberen.dk</authorUrl>
+	<copyright>Ravsliberen Aps 2015</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.1</version>
+	<description>Template for Ravsliberen Aps</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>fonts</folder>
+	</files>
+	<positions>
+		<position>top</position>
+	</positions>
+</extension>
